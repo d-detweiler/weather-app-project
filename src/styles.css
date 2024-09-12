@@ -1,0 +1,81 @@
+body {
+  background: #f9f7fe;
+  font-family: "Roboto", sans-serif;
+}
+header {
+  border-bottom: 1px solid #f9f7fe;
+  padding-bottom: 30px;
+}
+
+p {
+  color: rgba(39, 33, 66, 0.4);
+  line-height: 24px;
+  font-weight: 300;
+  font-size: 16px;
+}
+p strong {
+  color: #885df1;
+}
+
+footer {
+  border-top: 1px solid #f9f7fe;
+  text-align: center;
+  padding: 15px;
+}
+footer p {
+  line-height: 24px;
+}
+footer a {
+  color: #885df1;
+}
+.weather-app {
+  background: white;
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.09);
+}
+.search-input {
+  background: #f9f7fe;
+  border: none;
+  font-size: 16px;
+  padding: 20px;
+  border-radius: 8px;
+  width: 75%;
+  color: rgba(39, 33, 66, 0.4);
+}
+.search-button {
+  background: #885df1;
+  color: white;
+  padding: 20px 30px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  margin-left: 5px;
+}
+.current-city {
+  font-family: "Oswald", sans-serif;
+  font-size: 40px;
+}
+.current-weather {
+  display: flex;
+  justify-content: space-between;
+}
+
+.current-temp-icon {
+  font-size: 45px;
+  position: relative;
+  bottom: 10px;
+  margin-right: 5px;
+}
+.current-temp-value {
+  font-size: 70px;
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+}
+.current-temp-unit {
+  font-size: 30px;
+  position: relative;
+  bottom: 35px;
+}
