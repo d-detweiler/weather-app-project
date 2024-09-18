@@ -14,59 +14,26 @@
     <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
   </head>
   <body>
-    <div class="weather-app">
-      <header>
-        <form id="city-form">
-          <input
-            type="search"
-            placeholder="Enter a city.."
-            required
-            class="search-input"
-            id="city-input"
-          />
-          <input type="submit" value="Search" class="search-button" />
-        </form>
-      </header>
-      <main>
-        <div class="current-weather">
-          <div>
-            <h1 class="current-city" id="current-city">Paris</h1>
-            <p class="current-details">
-              <span id="current-date">Saturday 15:32</span>, moderate rain
-              <br />
-              Humidity: <strong>87%</strong>, Wind: <strong>7.2km/h</strong>
-            </p>
-          </div>
-          <div class="current-temp">
-            <span class="current-temp-icon">☀️</span
-            ><span class="current-temp-value" id="current-temp-value">14</span
-            ><span class="current-temp-unit">°C</span>
-          </div>
-        </div>
-      </main>
+    <footer>
+      <p>
+        This project was coded by
+        <a href="https://github.com/d-detweiler" target="_blank"
+          >Dominika Detweiler</a
+        >
+        and is
+        <a
+          href="https://github.com/d-detweiler/weather-app-project"
+          target="_blank"
+        >
+          on GitHub</a
+        >
+        and
+        <a href="https://my-weather-app-dominikad.netlify.app/" target="_blank"
+          >hosted on Netlify</a
+        >
+      </p>
+    </footer>
 
-      <footer>
-        <p>
-          This project was coded by
-          <a href="https://github.com/d-detweiler" target="_blank"
-            >Dominika Detweiler</a
-          >
-          and is
-          <a
-            href="https://github.com/d-detweiler/weather-app-project"
-            target="_blank"
-          >
-            on GitHub</a
-          >
-          and
-          <a
-            href="https://my-weather-app-dominikad.netlify.app/"
-            target="_blank"
-            >hosted on Netlify</a
-          >
-        </p>
-      </footer>
-    </div>
     <script src="src/script.js"></script>
   </body>
 </html>
